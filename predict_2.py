@@ -139,13 +139,14 @@ def imageprepare(argv):
     return tva
     #print(tva)
 
-def main(argv):
+def compare(argv):
     """
     Main function.
     """
     imvalue = imageprepare(argv)
     predint = predictint(imvalue)
-    print (predint[0]) #first value in list
+    #print (predint[0]) #first value in list
+    return predint[0]
     
-if __name__ == "__main__":
-    main("3img3.png")
+#if __name__ == "__main__":
+ #   main("3img3.png")
