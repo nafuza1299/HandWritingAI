@@ -1,6 +1,9 @@
 from tkinter import *
 from tkinter.colorchooser import askcolor
-from PIL import ImageGrab
+from PIL import Image, ImageGrab
+import io
+import os
+import subprocess
 
 class Paint(object):
 
@@ -28,7 +31,7 @@ class Paint(object):
         self.getter_button.grid(row=0, column=4)
 
 
-        self.c = Canvas(self.root, bg='white', width=500, height=500)
+        self.c = Canvas(self.root, bg='white', width=328, height=328)
         self.c.grid(row=1, columnspan=5)
 
 
@@ -60,11 +63,9 @@ class Paint(object):
         self.activate_button(self.eraser_button, eraser_mode=True)
 
     def use_getter(self):
-        x = self.root.winfo_rootx() + self.c.winfo_x()
-        y = self.root.winfo_rooty() + self.c.winfo_y()
-        x1 = x + self.c.winfo_width()
-        y1 = y + self.c.winfo_height()
-        ImageGrab.grab().crop((x, y, x1, y1)).save("D:\Downloads/tensorflow-mnist-predict-master/tensorflow-mnist-predict-master/pls.png")
+        ps = self.c.postscript(colormode='color')
+        img = Image.open(io.BytesIO(ps.encode('utf-8')))
+        img.save("file.png", "png")
 
 
     def activate_button(self, some_button, eraser_mode=False):
@@ -88,6 +89,5 @@ class Paint(object):
 
 
 
-
 #if __name__ == '__main__':
- #   Paint()
+#   Paint()
