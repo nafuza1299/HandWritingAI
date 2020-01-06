@@ -1,11 +1,8 @@
-# import the necessary packages
 from skimage.measure import compare_ssim
-import argparse
 import imutils
 import cv2
 
 # construct the argument parse and parse the arguments
-
 class comparisonClass:
     # load the two input images
     def inputimage(input, font):
@@ -16,12 +13,11 @@ class comparisonClass:
         grayA = cv2.cvtColor(imageA, cv2.COLOR_BGR2GRAY)
         grayB = cv2.cvtColor(imageB, cv2.COLOR_BGR2GRAY)
 
-
         # compute the Structural Similarity Index (SSIM) between the two
         # images, ensuring that the difference image is returned
         (score, diff) = compare_ssim(grayA, grayB, full=True)
         diff = (diff * 255).astype("uint8")
-        print("SSIM: {}".format(score))
+        print("SSIM: {}".format(score*100)+"% similarity found between these two images")
 
         # threshold the difference image, followed by finding contours to
         # obtain the regions of the two input images that differ
