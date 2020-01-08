@@ -26,39 +26,39 @@ def predictint(imvalue):
     def max_pool_2x2(x):
       return tf.nn.max_pool(x, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')   
     
-    W_conv1 = weight_variable([5, 5, 1, 32])
+    W_conv1 = weight_variable([5, 5, 1, 32])#conv1
     b_conv1 = bias_variable([32])
-    
+    #maxpool1
     x_image = tf.reshape(x, [-1,28,28,1])
     h_conv1 = tf.nn.relu(conv2d(x_image, W_conv1) + b_conv1)
     h_pool1 = max_pool_2x2(h_conv1)
-    
+    #conv1
     W_conv2 = weight_variable([5, 5, 32, 64])
     b_conv2 = bias_variable([64])
-    
+    #maxpool1
     h_conv2 = tf.nn.relu(conv2d(h_pool1, W_conv2) + b_conv2)
     h_pool2 = max_pool_2x2(h_conv2)
-    
+    #fully connected weight
     W_fc1 = weight_variable([7 * 7 * 64, 1024])
     b_fc1 = bias_variable([1024])
-    
+
     h_pool2_flat = tf.reshape(h_pool2, [-1, 7*7*64])
-    h_fc1 = tf.nn.relu(tf.matmul(h_pool2_flat, W_fc1) + b_fc1)
+    h_fc1 = tf.nn.relu(tf.matmul(h_pool2_flat, W_fc1) + b_fc1) #fully connected weight1
     
     keep_prob = tf.placeholder(tf.float32)
     h_fc1_drop = tf.nn.dropout(h_fc1, keep_prob)
     
-    W_fc2 = weight_variable([1024, 10])
+    W_fc2 = weight_variable([1024, 10])#fullyconnected weight2
     b_fc2 = bias_variable([10])
     
-    y_conv=tf.nn.softmax(tf.matmul(h_fc1_drop, W_fc2) + b_fc2)
+    y_conv=tf.nn.softmax(tf.matmul(h_fc1_drop, W_fc2) + b_fc2)#drop out
     
-    init_op = tf.global_variables_initializer()
+    init_op = tf.global_variables_initializer()#initialize model
     saver = tf.train.Saver()
-
+#start session
     with tf.Session() as sess:
         sess.run(init_op)
-        saver.restore(sess, "model2.ckpt")
+        saver.restore(sess, "model2.ckpt")#load model
         #print ("Model restored.")
        
         prediction=tf.argmax(y_conv,1)
@@ -67,14 +67,12 @@ def predictint(imvalue):
 
 def imageprepare(argv):
     """
-    This function returns the pixel values.
-    The imput is a png file location.
+    This function returns the pixel values. The input is a png file location.
     """
     im = Image.open(argv).convert('L')
     width = float(im.size[0])
     height = float(im.size[1])
     newImage = Image.new('L', (28, 28), (255)) #creates white canvas of 28x28 pixels
-    
     if width > height: #check which dimension is bigger
         #Width is bigger. Width becomes 20 pixels.
         nheight = int(round((20.0/width*height),0)) #resize height according to ratio width
@@ -107,4 +105,3 @@ def compare(argv):
     predint = predictint(imvalue)
     #print (predint[0]) #first value in list
     return predint[0]
-    

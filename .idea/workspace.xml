@@ -1,180 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/main.py" line="28" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="970355db-a457-4b21-8ffe-7ea37f8f5442" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tensorflow-mnist-predict-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tensorflow-mnist-predict-master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3img.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3img2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3img3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4imginv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5img.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5img1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5img2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comp2Img.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compare2Img.py" beforeDir="false" afterPath="$PROJECT_DIR$/Compare2Img.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comparison.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MNIST_data/t10k-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MNIST_data/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MNIST_data/train-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MNIST_data/train-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribble.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_model_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_model_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/end.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_drawing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pls.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/predict_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/predict_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkintercanvas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Create_Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Create_Model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PredictionResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/PredictionResult.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.png" beforeDir="false" afterPath="$PROJECT_DIR$/input.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="681304693">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="6" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="jpg" value="1" />
-          <entry key="png" value="1" />
-          <entry key="py" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Image" value="2" />
-          <entry key="Python" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="2345" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="2345" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="665467117">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="1079" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="1079" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="5" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PredictionResult.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="107" column="32" selection-start-line="107" selection-end-line="108" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Canvas.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Compare2Img.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#32#72#0" expanded="true" />
-                <marker date="1578311063077" expanded="true" signature="210:211" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -208,37 +47,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/create_model_2.py" />
-        <option value="$PROJECT_DIR$/create_model_1.py" />
-        <option value="$PROJECT_DIR$/predict_1.py" />
-        <option value="$PROJECT_DIR$/Comparison.py" />
-        <option value="$PROJECT_DIR$/predict_2.py" />
-        <option value="$PROJECT_DIR$/Comp2Img.py" />
-        <option value="$PROJECT_DIR$/tkintercanvas.py" />
-        <option value="$PROJECT_DIR$/Scribble.py" />
-        <option value="$PROJECT_DIR$/Compare2Img.py" />
-        <option value="$PROJECT_DIR$/PredictionResult.py" />
-        <option value="$PROJECT_DIR$/Canvas.py" />
-        <option value="$PROJECT_DIR$/Create_Model.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1090" />
-  </component>
+  <component name="ProjectId" id="1W64wGsuBNwMSOYFuubnkTrp6tB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
-  </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -269,6 +79,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Compare2Img.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EpsImagePlugin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow-mnist-predict-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Anaconda3/envs/tensorflow_env/Lib/site-packages/PIL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Anaconda3/envs/tensorflow_env/Lib/site-packages/PIL/EpsImagePlugin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,27 +150,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="predict_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tensorflow-mnist-predict-master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predict_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="tkintercanvas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow-mnist-predict-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -362,19 +172,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.predict_2" />
       <item itemvalue="Python.Compare2Img" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.Scribble" />
       <item itemvalue="Python.tkintercanvas" />
+      <item itemvalue="Python.EpsImagePlugin" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.EpsImagePlugin" />
         <item itemvalue="Python.Scribble" />
         <item itemvalue="Python.tkintercanvas" />
         <item itemvalue="Python.Compare2Img" />
-        <item itemvalue="Python.predict_2" />
       </list>
     </recent_temporary>
   </component>
@@ -391,49 +201,18 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.0" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.36280885" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50065106" side_tool="true" weight="0.36280885" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5085414" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -450,77 +229,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorf_env/Lib/site-packages/tensorflow/python/ops/gen_nn_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15504">
-          <caret line="930" column="26" selection-start-line="930" selection-start-column="26" selection-end-line="930" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/predict_1.py" />
-    <entry file="file://$PROJECT_DIR$/create_model_1.py" />
-    <entry file="file://$PROJECT_DIR$/create_model_2.py" />
-    <entry file="file://$PROJECT_DIR$/Comparison.py" />
-    <entry file="file://$PROJECT_DIR$/4img2.jpg" />
-    <entry file="file://$PROJECT_DIR$/7img.png" />
-    <entry file="file://$PROJECT_DIR$/tkintercanvas.py" />
-    <entry file="file://$PROJECT_DIR$/Comp2Img.py" />
-    <entry file="file://$PROJECT_DIR$/predict_2.py" />
-    <entry file="file://$PROJECT_DIR$/Scribble.py" />
-    <entry file="file://$PROJECT_DIR$/Prediction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1322" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Create_Model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Compare2Img.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#32#72#0" expanded="true" />
-            <marker date="1578311063077" expanded="true" signature="210:211" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Canvas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PredictionResult.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="107" column="32" selection-start-line="107" selection-end-line="108" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
