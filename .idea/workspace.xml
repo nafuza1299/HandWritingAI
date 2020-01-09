@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="970355db-a457-4b21-8ffe-7ea37f8f5442" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tensorflow-mnist-predict-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tensorflow-mnist-predict-master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Create_Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Create_Model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PredictionResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/PredictionResult.py" afterDir="false" />
